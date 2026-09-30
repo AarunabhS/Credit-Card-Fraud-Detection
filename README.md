@@ -1,5 +1,33 @@
 # Credit Card Fraud Detection
 
+Flag rare fraud while making review capacity and missed-fraud uncertainty visible.
+
+**Start with the [case study](CASE_STUDY.md), [executed phase-two notebook](Fraud_Phase2.ipynb), or [current results report](results/phase2/REPORT.md).**
+
+Average precision **0.7882**, precision **90.2%**, recall **74.3%**. Log loss **0.0030** versus baseline **0.0101**.
+
+![Current reliability and bin support](results/phase2/reliability.png)
+
+The new evaluation adds independent calibration, uncertainty intervals, three development-only stability checks,
+and auditable error analysis. Run `python demo.py`, then open the local URL printed by the server. The demo scores public validation examples and compares frozen validation-derived review policies. Costs are hypothetical relative units; the cost recommendation uses validation outcomes only. The server binds to loopback, restricts routes and payload size, and writes no request data.
+
+![Local fraud demo](demo/preview.png)
+
+```bash
+python -m pip install -r requirements.txt
+python fetch_full_data.py
+python phase2.py
+```
+
+Use a virtual environment; see [CASE_STUDY.md](CASE_STUDY.md) for the complete setup and interpretation.
+The scripts use local project caches. Every original tracked file is retained. See [CHANGELOG.md](CHANGELOG.md)
+and [AUDIT/phase2-file-changes.json](AUDIT/phase2-file-changes.json) for this pass’s changes.
+
+<details>
+<summary>Preserved phase-one benchmark and reproduction guide</summary>
+
+# Credit Card Fraud Detection
+
 Identify rare fraudulent transactions while showing the trade-off between missed fraud and investigation workload.
 
 **Start with the [executed notebook](Fraud_Detection.ipynb) or the [results report](results/REPORT.md).**
@@ -74,3 +102,6 @@ python -m pytest -q
 The notebook and CLI call the same implementation. Fixed seeds, pinned dependencies, and recorded input hashes
 make the published run reproducible. Generated model files are local and ignored by Git.
 See [REVIEW_NOTES.md](REVIEW_NOTES.md) for the repairs and remaining limits.
+
+
+</details>

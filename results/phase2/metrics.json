@@ -1,0 +1,97 @@
+{
+  "project": "fraud",
+  "input_file": "transactions_full.csv",
+  "input_sha256": "61171795e96ec102e4876a6809da8181dffd6d0d80a3fcce14d86a75643698e5",
+  "rows_read": 284807,
+  "rows_used": 283726,
+  "duplicates_removed": 1081,
+  "split_strategy": "chronological 60/20/20; ties in Time stay together",
+  "time_ranges": {
+    "train": [
+      0.0,
+      120392.0
+    ],
+    "validation": [
+      120393.0,
+      145233.0
+    ],
+    "test": [
+      145234.0,
+      172792.0
+    ]
+  },
+  "selected_model": "random_forest_sigmoid",
+  "threshold": 0.09111058040486575,
+  "selection": "validation AP; log loss breaks AP ties",
+  "protocol": "fit 45%, independent sigmoid calibration 15%, validation 20%, test 20%; grouped or chronological where available",
+  "splits": {
+    "fit": {
+      "rows": 127672,
+      "positives": 255
+    },
+    "calibration": {
+      "rows": 42563,
+      "positives": 87
+    },
+    "validation": {
+      "rows": 56745,
+      "positives": 57
+    },
+    "test": {
+      "rows": 56746,
+      "positives": 74
+    }
+  },
+  "test": {
+    "model": "random_forest_sigmoid",
+    "split": "test",
+    "average_precision": 0.7881522251306236,
+    "roc_auc": 0.9389890093015093,
+    "log_loss": 0.0029610501013937044,
+    "brier_score": 0.0004108045084738436,
+    "accuracy": 0.9995594403129736,
+    "precision": 0.9016393442622951,
+    "recall": 0.7432432432432432,
+    "f1": 0.8148148148148148,
+    "threshold": 0.09111058040486575,
+    "tn": 56666,
+    "fp": 6,
+    "fn": 19,
+    "tp": 55,
+    "alerts": 61,
+    "positive_rate": 0.0013040566735981391,
+    "rows": 56746
+  },
+  "baseline_test": {
+    "model": "baseline",
+    "split": "test",
+    "average_precision": 0.0013040566735981391,
+    "roc_auc": 0.5,
+    "log_loss": 0.01010265484308439,
+    "brier_score": 0.0013028367038580245,
+    "accuracy": 0.9986959433264019,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "threshold": 0.5,
+    "tn": 56672,
+    "fp": 0,
+    "fn": 74,
+    "tp": 0,
+    "alerts": 0,
+    "positive_rate": 0.0013040566735981391,
+    "rows": 56746
+  },
+  "runtime_seconds": 25.49,
+  "seed": 42,
+  "python": "3.13.2",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "stability_design": "Three expanding chronological validation windows; test excluded",
+  "fit_limit": "60 trees, at most 40,000 training rows per tree",
+  "limits": "Benchmark redevelopment is not a newly collected external test. No production-performance or causal claims. CTR probabilities describe downsampled benchmark prevalence; natural-prevalence logs and timestamps remain unavailable."
+}

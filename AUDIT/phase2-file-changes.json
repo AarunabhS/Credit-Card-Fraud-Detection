@@ -1,0 +1,285 @@
+{
+  "previous_head": "6db265b10212b5fb7f1207968021872fd75bf302",
+  "deleted_files": [],
+  "changes": [
+    {
+      "path": ".gitignore",
+      "action": "modified",
+      "before_sha256": "72149856bc00bafca9fd1f9cbe5aadd3d38419ad0e222d439970fca1d7865e4e",
+      "after_sha256": "14ab4f44b1c47912054085944482923fc8ac7d2f27a9abc02188957d58a464c8",
+      "bytes": 243,
+      "local_only": false
+    },
+    {
+      "path": "CASE_STUDY.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "c16164045d3eaf24d58867d2b0de6c66acf0177210ecfe94011e51bb677f4fa2",
+      "bytes": 2809,
+      "local_only": false
+    },
+    {
+      "path": "CHANGELOG.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "25eceaa164f9140fc85425d31c5001eeb9b046ea65a7c24a636d7ab7be91b08a",
+      "bytes": 1016,
+      "local_only": false
+    },
+    {
+      "path": "Fraud_Phase2.ipynb",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "ddf5b51c1d12c2c288f129a5049c2eeb618ca96fbf09d3e6d2967637b426098a",
+      "bytes": 304737,
+      "local_only": false
+    },
+    {
+      "path": "README.md",
+      "action": "modified",
+      "before_sha256": "95cd19e466d4df471bd7307d41f25d9629a3d38250b66ef08df358940c5056b4",
+      "after_sha256": "22a526e4132df3e393ddafa4c7e07f6d2daae7e806da2cb96e1688752a57c199",
+      "bytes": 5477,
+      "local_only": false
+    },
+    {
+      "path": "data/PHASE2_SOURCES.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "4861e3912b0fd0a5998ff755f05db42b54eefa662c5d89d0712ed0dcc38a5cbf",
+      "bytes": 796,
+      "local_only": false
+    },
+    {
+      "path": "data/full_provenance.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "5abc2010f8dde2b6a72bdbbeb8311a032f0476ac9b56f1bdfd1d4f992b4d3f0b",
+      "bytes": 448,
+      "local_only": false
+    },
+    {
+      "path": "data/transactions_full.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "61171795e96ec102e4876a6809da8181dffd6d0d80a3fcce14d86a75643698e5",
+      "bytes": 150817597,
+      "local_only": true
+    },
+    {
+      "path": "demo/context.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "b245284e0a54b506d580218dc50f9ae0cf22448828fa465509897edaa0df535f",
+      "bytes": 27691,
+      "local_only": false
+    },
+    {
+      "path": "demo/index.html",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "df09e9808ce9b41d1d565a78418572249a79d240cf0ca019a8f90ee9e8ba85aa",
+      "bytes": 10372,
+      "local_only": false
+    },
+    {
+      "path": "demo/preview.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "582701d8f74eb26def6b9548b2d41ed49a001d5af2a1f05d5fe3b758df017c42",
+      "bytes": 171434,
+      "local_only": false
+    },
+    {
+      "path": "demo.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "c488ba476644841fb28b20522677551442b2c238781a2d9d4b41853dd0f303ea",
+      "bytes": 4357,
+      "local_only": false
+    },
+    {
+      "path": "fetch_full_data.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "ec05be5bb83de31a1afe1701e49cbc19445d35ddfeb149e75e644d6e72be3029",
+      "bytes": 2268,
+      "local_only": false
+    },
+    {
+      "path": "phase2.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "ddbe31f4d58324b314092de45dbefc187a053215c052060deeb361474f231131",
+      "bytes": 15146,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/REPORT.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "60600d02b6b1e039cdf8b05481b815d30a21b7782f89af543531eff7eeccccf2",
+      "bytes": 2360,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/errors.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "4418e41ce21e651c305ef43b2f970532d046132d3c9c831df891a7235c942a92",
+      "bytes": 2083,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/metrics.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "7623ede9b32accba7b9d128d3157af9fea7017b32ebc6608e3a93b94bb025e0d",
+      "bytes": 1724,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/metrics.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "60082c6c6e4a62abe8c3a08242a29a243a28c20d443a68ba1a02078d4fe2d450",
+      "bytes": 2642,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/model.joblib",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "bcbb4ca74c520d178d83d769e65b61cc1e37398532a2868a64f85128e739f6ad",
+      "bytes": 525519,
+      "local_only": true
+    },
+    {
+      "path": "results/phase2/operating_policies.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "0bb3ee562b09e8249896d9547d71109b7895c584da7bd48a47f85b8310b62d8a",
+      "bytes": 2327,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/predictions.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "a45f683e6048a3c6c46786cc73375f3d63e63801de4b6683c58183cd40619c9f",
+      "bytes": 4369600,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/ranking.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "4afbdf583e29c3b6e576898aca19e3da69a8182b12b33a7b7d12547a3f2c7e4e",
+      "bytes": 58149,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/ranking_lift.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "2dd0e626e11b280e105da2c58c5b15118641ad646ba212a499e51a9ed20a9e33",
+      "bytes": 404,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/reliability.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "1fa508aedcbd65144e8486710653a009ee8b8ea2f78de8501ccccbb1a3738f54",
+      "bytes": 1803,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/reliability.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "839ca693a4d663c86a7cc24e76443d537e4ead9f03ceae7532c8945ac049b8fb",
+      "bytes": 131632,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/splits.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "714c4d0f73ec6ddb0df7ea0bf51ddeb20106e06ae81efc321101d68e53d601e0",
+      "bytes": 4371812,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/subgroup_errors.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "84b45c698972b37fe92e8fba07cba79bb2a7ab0b0b4236c05d2f4a55b7e4a0ae",
+      "bytes": 310,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/uncertainty.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "08eed398aee01a25d10fbc8160cdc2dea8d245e7bb73fa4161b1cc3e730f92c6",
+      "bytes": 901,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/validation_predictions.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "692334b6731be119434c388097224236813948aec2e09a4fb48f7a75812b5f14",
+      "bytes": 1134920,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/validation_stability.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "c7af07f9821107c1d68d93da080e13cca6c66bda6b53e0240adbe610774b55e0",
+      "bytes": 633,
+      "local_only": false
+    },
+    {
+      "path": "review_tools.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "63aaef15259be82cf70c37aa603aa6774acac70ac3c5ead3b9cd40ea3a867898",
+      "bytes": 10680,
+      "local_only": false
+    },
+    {
+      "path": "tests/test_demo.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "d320d96c697a210f5de1d9359cdef87aa28c456dc28659b17a2aca2f75da57ed",
+      "bytes": 2156,
+      "local_only": false
+    },
+    {
+      "path": "tests/test_full_download.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "764c0a064da6ef20422202e8000a3e9586f72a441c461157febe794179cabbd5",
+      "bytes": 449,
+      "local_only": false
+    },
+    {
+      "path": "tests/test_review_tools.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "2212092af1f27641c2670646cff631e6110e99c759236aeba946c25444a1ebab",
+      "bytes": 2416,
+      "local_only": false
+    }
+  ],
+  "note": "This audit manifest excludes its own hash. Its exact bytes are recorded in the local publication receipt. Local-only inputs/models are excluded from Git.",
+  "verification": {
+    "tests_passed": 20,
+    "heldout_inference": "Verified all 56746 held-out batch predictions",
+    "executed_notebook": "7 code cells completed; no error outputs"
+  },
+  "data_sources": "data/PHASE2_SOURCES.md and data/*provenance.json"
+}
