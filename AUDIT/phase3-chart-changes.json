@@ -1,0 +1,99 @@
+{
+  "previous_head": "de89e37b9bf645017cb85e17ef90fa133b367504",
+  "changes": [
+    {
+      "path": ".gitignore",
+      "action": "modified",
+      "before_sha256": "14ab4f44b1c47912054085944482923fc8ac7d2f27a9abc02188957d58a464c8",
+      "after_sha256": "4805456d0c77e8ca2e66cee81968c20d3edc57122d6134faa5ecb115289ec740",
+      "bytes": 330
+    },
+    {
+      "path": "README.md",
+      "action": "modified",
+      "before_sha256": "22a526e4132df3e393ddafa4c7e07f6d2daae7e806da2cb96e1688752a57c199",
+      "after_sha256": "4296f6eb66e2e063be63e1574caf2692e4093fb78444e2cc1aef93269d0b5892",
+      "bytes": 5693
+    },
+    {
+      "path": "plot_gallery.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "d82244dd526989b121b9692ab40c3c2329571f90f3698eda8ab8d2c0ebbe98e5",
+      "bytes": 24798
+    },
+    {
+      "path": "results/charts/README.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "5048970a983ad363bc6f91dec275c28aa2df700ad667973fb8eb9f9d46874363",
+      "bytes": 1592
+    },
+    {
+      "path": "results/charts/chart-provenance.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "0186147d16ff98997021596bc8580f353d28b3cdf6b5b6d2da6ede5920ece48b",
+      "bytes": 1786
+    },
+    {
+      "path": "results/charts/dashboard.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "b326f3ddc6abfdd5d1a807d0fea3df865b80c8869bc765c50afe27ad161b0295",
+      "bytes": 427844
+    },
+    {
+      "path": "results/charts/dashboard.svg",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "dde3fa88c7b78a8a1fb3a88a18332b076625784c8080ae71831f0bb3084ef3a8",
+      "bytes": 44320
+    },
+    {
+      "path": "results/charts/fraud_precision_recall.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "3526e6c0f97a73d5cd7802ee2c0c96783b2287eb2adef39bc4ad76222488c58d",
+      "bytes": 197419
+    },
+    {
+      "path": "results/charts/fraud_precision_recall.svg",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "3c141ad67a0acb1f7a4f8fe707016b196a724d53778501a53cbda97562eae40c",
+      "bytes": 13352
+    },
+    {
+      "path": "results/charts/fraud_review_budget.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "59223e9be0aaeae12e87010dcc662991d646c8fde6e10261023768cb124fba35",
+      "bytes": 189849
+    },
+    {
+      "path": "results/charts/fraud_review_budget.svg",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "2c85c23b5b661a950aeff66b8246b99eb609cdaed43c7a67d12a7c2530da44b6",
+      "bytes": 13084
+    },
+    {
+      "path": "results/charts/fraud_score_distribution.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "66d745342d43b722049c9a2502e21efe14ff4deac0a518ff3042f4209369fe79",
+      "bytes": 155035
+    },
+    {
+      "path": "results/charts/fraud_score_distribution.svg",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "a9f4b8d8ad4cb4741e49f656e4a6065196dd731d0e68ba07a427749f24c0d00a",
+      "bytes": 20965
+    }
+  ],
+  "deleted_files": [],
+  "verification": "Chart counts and metrics match saved results; PNG/SVG labels inspected; source hashes recorded. No model refitting, data downloads, or original result edits.",
+  "note": "The manifest excludes its own hash; that hash is retained in the local publication receipt."
+}

@@ -1,0 +1,39 @@
+{
+  "project": "Credit-Card-Fraud-Detection",
+  "source_directory": "results/phase2",
+  "source_sha256": {
+    "metrics.json": "60082c6c6e4a62abe8c3a08242a29a243a28c20d443a68ba1a02078d4fe2d450",
+    "predictions.csv": "a45f683e6048a3c6c46786cc73375f3d63e63801de4b6683c58183cd40619c9f",
+    "metrics.csv": "7623ede9b32accba7b9d128d3157af9fea7017b32ebc6608e3a93b94bb025e0d",
+    "operating_policies.csv": "0bb3ee562b09e8249896d9547d71109b7895c584da7bd48a47f85b8310b62d8a"
+  },
+  "model": "random_forest_sigmoid",
+  "model_refitted": false,
+  "network_requests": 0,
+  "deleted_files": [],
+  "checks": "Counts, selected metrics and key policy points checked against recorded metrics; figure labels checked for clipping.",
+  "charts": [
+    {
+      "chart": "fraud_precision_recall",
+      "interpretation": "Precision\u2013recall is more informative than accuracy for this rare-event benchmark. The marked threshold is fixed from validation F2.",
+      "png": "fraud_precision_recall.png",
+      "svg": "fraud_precision_recall.svg"
+    },
+    {
+      "chart": "fraud_review_budget",
+      "interpretation": "Budget percentages are validation targets, not guarantees of test capacity. The F2 threshold is a separate operating choice. Only the four lowest documented budgets are shown.",
+      "png": "fraud_review_budget.png",
+      "svg": "fraud_review_budget.svg"
+    },
+    {
+      "chart": "fraud_score_distribution",
+      "interpretation": "Each class has its own denominator; this does not show population prevalence. Score is on a log axis. Up to 1,800 ordered points per class show the ECDF; endpoints are retained.",
+      "png": "fraud_score_distribution.png",
+      "svg": "fraud_score_distribution.svg"
+    }
+  ],
+  "dashboard": [
+    "dashboard.png",
+    "dashboard.svg"
+  ]
+}
